@@ -1,0 +1,21 @@
+import random 
+
+def chance_roll():
+  
+
+
+print("THROUGH THE FOREST")
+print("\n")
+print("Oshii: \t Greetings traveler! My name is Oshii, your Oracle. I will be your guide on this journey. We must get through the forest before nightfall. For if we don't, will succumb to the frost.")
+name = input('Oshii: \t What is your name? ')
+print("Oshii: \t Pleasure to meet you,",name + ". Now that we have that formality out of the way, onward!")
+print('\n')
+input('press enter')
+print('\n')
+print("You travel along and come upon a fork in the road. Do you go right, through an open field, or left, through dense tree cover? (right/left)")
+print("Oshii: I think you should go right, sir.")
+choice1 = input() 
+if choice1 == "right": 
+  print("Oshii: \t Ah a fine choice. Well ahead it is.")
+if choice1 == "left": 
+  print("Oshii: Hmph! Fine. Let's go.")
